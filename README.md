@@ -2,7 +2,7 @@
 
 Simplest Rack Application.
 
-只要能呼叫 .call 並回傳 [HTTP status, HTTP headers (type: Hash), Body (type: Array)].
+Provides an app which is an object that responds to #call method, taking the environment hash as parameter and returning [HTTP status, HTTP headers (type: Hash), Body (type: Array)].
 
 - Proc
 - Method Class
