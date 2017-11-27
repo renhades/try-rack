@@ -16,8 +16,12 @@ Step 1. Install rack
 
 Step 2. Run rack
 
-    $ rackup (default listen port 9292)
+    // config.ru
+    $ rackup (default listen port: 9292)
     $ rackup -p 3000 (specify port to 3000)
+
+    // rack_app
+    $ ruby rack_app.rb (default listen port: 8080)
 
 Step 3. Open browser
 
